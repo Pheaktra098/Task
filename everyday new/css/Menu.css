@@ -148,6 +148,7 @@
     }
 
     .navbar .container .logo-media .social-media .search form {
+        margin:0px;
         background-color: #fff;
         border-radius: 50px;
         padding: 10px;
