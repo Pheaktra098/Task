@@ -287,151 +287,496 @@ function removeClass() {
 }
 </script>    </section>
     <!-- content -->
-    <section>       
+  <section>       
         <div class="list-page-item mb_2" x-data="share">    <div class="news-section-content container p-0">
         <div class="new-section-2">
             <div class="btn-shape">
-                <h1 class="m-0">វិទ្យុ</h1>
+                <h1 class="m-0">វីឌីអូ</h1>
             </div>
         </div>
-        <div class="new-national">
-            <div class="list-radio">
-                <div class="list-radio-item">
-                    <div class="blog-text">
-                        <div class="icon-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-radio text-secondary">
-                                <circle cx="12" cy="12" r="2"></circle>
-                                <path
-                                    d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="text-wrapper">
-                            <h1 class="title ">
-                                ព័ត៌មានប្រចាំថ្ងៃ
-                            </h1>
-                            <span class="date ">
-                                ថ្ងៃអាទិត្យ ទី២១ ខែឧសភា ឆ្នាំ២០២៣
-                            </span>
+        <div class="new-national" x-data="video">
+            <div class="item">
+                <div class="box-item" onclick="dialogOpen(1)" /*@click="openVideoDialog('https://www.youtube.com/embed/Dv-ED_WtPME')">
+                    <div class="img-box">
+                        <a>
+                            <img src="https://img.youtube.com/vi/Dv-ED_WtPME/0.jpg"
+                                onerror="this.onerror=null;this.src='https://moitv.phsartech.com/images/logo/default.png';"
+                                alt="">
+                        </a>
+                        <div class="icon-play">
+                            <i class="fa fa-play-circle"></i>
                         </div>
                     </div>
-                    <div class="blog-button">
-                        <a href="http://moinews.gov.kh/audio/1655725308.mp3" target="_blank"
-                            class="flex items-center btn-play">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-play w-4 h-4">
-                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                            </svg>
-                            <span>ស្ដាប់</span>
-                        </a>
+                    <div class="text-description">
+                        <a class="title">ម្ដេចក្រឡាហោម ស ខេង អញ្ជើញជាអធីបតីក្នុងទិវាអន្ដរជាតិប្រយុទ្ធប្រឆាំងគ្រឿងញៀន</a>
+                        <span class="date">ថ្ងៃអាទិត្យ ទី២ ខែកក្កដា ឆ្នាំ២០២៣</span>
                     </div>
                 </div>
-                <div class="list-radio-item">
-                    <div class="blog-text">
-                        <div class="icon-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-radio text-secondary">
-                                <circle cx="12" cy="12" r="2"></circle>
-                                <path
-                                    d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="text-wrapper">
-                            <h1 class="title ">
-                                ព័ត៌មានប្រចាំថ្ងៃ
-                            </h1>
-                            <span class="date">
-                                ថ្ងៃអាទិត្យ ទី២១ ខែឧសភា ឆ្នាំ២០២៣
-                            </span>
+                <div class="box-item" onclick="dialogOpen(2)" /*@click="openVideoDialog('https://www.youtube.com/embed/o7hl9ou71V0')">
+                    <div class="img-box">
+                        <a>
+                            <img src="https://img.youtube.com/vi/o7hl9ou71V0/0.jpg"
+                                onerror="this.onerror=null;this.src='https://moitv.phsartech.com/images/logo/default.png';"
+                                alt="">
+                        </a>
+                        <div class="icon-play">
+                            <i class="fa fa-play-circle"></i>
                         </div>
                     </div>
-                    <div class="blog-button">
-                        <a href="http://moinews.gov.kh/audio/1674129800.mp3" target="_blank"
-                            class="flex items-center btn-play">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-play w-4 h-4">
-                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                            </svg>
-                            <span>ស្ដាប់</span>
-                        </a>
+                    <div class="text-description">
+                        <a class="title">សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ
+                            អញ្ជើញជាអធិបតីក្នុងពិធីសម្ពោធដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការនូវសមិទ្ធផលនានា
+                            និងពិធីបិទវគ្គបណ្ដុះបណ្ដាលកម្រិតបឋមវិជ្ជាជីវៈនគរបាល ជំនាន់ទី១៧ លើកទី១</a>
+                        <span class="date">ថ្ងៃអាទិត្យ ទី២ ខែកក្កដា ឆ្នាំ២០២៣</span>
                     </div>
                 </div>
-                <div class="list-radio-item">
-                    <div class="blog-text">
-                        <div class="icon-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-radio text-secondary">
-                                <circle cx="12" cy="12" r="2"></circle>
-                                <path
-                                    d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="text-wrapper">
-                            <h1 class="title ">
-                                កម្មវិធីព័ត៍មាននទាន់ហេតុការណ៍
-                            </h1>
-                            <span class="date">
-                                ថ្ងៃអាទិត្យ ទី២១ ខែឧសភា ឆ្នាំ២០២៣
-                            </span>
+                <div class="box-item" onclick="dialogOpen(3)" /*@click="openVideoDialog('https://www.youtube.com/embed/3u8jw89JF9Q')">
+                    <div class="img-box">
+                        <a>
+                            <img src="https://img.youtube.com/vi/3u8jw89JF9Q/0.jpg"
+                                onerror="this.onerror=null;this.src='https://moitv.phsartech.com/images/logo/default.png';"
+                                alt="">
+                        </a>
+                        <div class="icon-play">
+                            <i class="fa fa-play-circle"></i>
                         </div>
                     </div>
-                    <div class="blog-button">
-                        <a href="http://moinews.gov.kh/audio/1681903088.mp3" target="_blank"
-                            class="flex items-center btn-play">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-play w-4 h-4">
-                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                            </svg>
-                            <span>ស្ដាប់</span>
-                        </a>
+                    <div class="text-description">
+                        <a class="title">សម្ដេចក្រឡាហោម ស ខេង ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ
+                            អញ្ជើញជាអធិបតីក្នុងពិធីសម្ពោធដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការនូវសមិទ្ធផលនានា
+                            និងពិធីបិទវគ្គបណ្ដុះបណ្ដាលកម្រិតបឋមវិជ្ជាជីវៈនគរបាល ជំនាន់ទី១៧ លើកទី១</a>
+                        <span class="date">ថ្ងៃអាទិត្យ ទី២ ខែកក្កដា ឆ្នាំ២០២៣</span>
                     </div>
                 </div>
-                <div class="list-radio-item">
-                    <div class="blog-text">
-                        <div class="icon-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-radio text-secondary">
-                                <circle cx="12" cy="12" r="2"></circle>
-                                <path
-                                    d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="text-wrapper">
-                            <h1 class="title   ">
-                                កម្មវិធីព័ត៍មាននទាន់ហេតុការណ៍
-                            </h1>
-                            <span class="date">
-                                ថ្ងៃអាទិត្យ ទី២១ ខែឧសភា ឆ្នាំ២០២៣
-                            </span>
+                <div class="box-item" onclick="dialogOpen(4)" /*@click="openVideoDialog('https://www.youtube.com/embed/xf1RLp9X19w')">
+                    <div class="img-box">
+                        <a>
+                            <img src="https://img.youtube.com/vi/xf1RLp9X19w/0.jpg"
+                                onerror="this.onerror=null;this.src='https://moitv.phsartech.com/images/logo/default.png';"
+                                alt="">
+                        </a>
+                        <div class="icon-play">
+                            <i class="fa fa-play-circle"></i>
                         </div>
                     </div>
-                    <div class="blog-button">
-                        <a href="http://moinews.gov.kh/audio/1682078865.mp3" target="_blank"
-                            class="flex items-center btn-play">
+                    <div class="text-description">
+                        <a class="title">ម្ដេចក្រឡាហោម ស ខេង អនុប្រធានគណបក្សប្រជាជនកម្ពុជា និងលោកជំទាវ
+                            អញ្ជើញជាអធិបតីក្នុងពិធីអបអរសាទរខួបលើកទី៧២ ថ្ងៃបង្កើតគណបក្សប្រជាជនកម្ពុជា
+                            និងពិធីបើកយុទ្ធនាការឃោសនាបោះឆ្នោតជ្រើសតាំងតំណាងរាស្ត្រ នីតិកាលទី៧ នាព្រឹកថ្ងៃទី១ ខែកក្កដា
+                            ឆ្នាំ២០២៣។</a>
+                        <span class="date">ថ្ងៃអាទិត្យ ទី២ ខែកក្កដា ឆ្នាំ២០២៣</span>
+                    </div>
+                </div>
+                <div class="box-item" onclick="dialogOpen(5)" /*@click="openVideoDialog('https://www.youtube.com/embed/jHukqpV0WM0')">
+                    <div class="img-box">
+                        <a>
+                            <img src="https://img.youtube.com/vi/jHukqpV0WM0/0.jpg"
+                                onerror="this.onerror=null;this.src='https://moitv.phsartech.com/images/logo/default.png';"
+                                alt="">
+                        </a>
+                        <div class="icon-play">
+                            <i class="fa fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="text-description">
+                        <a class="title">សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញបើកសន្និបាតត្រួតពិនិត្យលទ្ធផលការងារឆ្នាំ២០២២
+                            និងលើកទិសដៅការងារបន្ត..</a>
+                        <span class="date">ថ្ងៃសៅរ៍ ទី១១ ខែវិច្ឆិកា ឆ្នាំ២០២៣</span>
+                    </div>
+                </div>
+                <div class="box-item" onclick="dialogOpen(6)" /*@click="openVideoDialog('https://www.youtube.com/embed/Kclp0Z6brTo')">
+                    <div class="img-box">
+                        <a>
+                            <img src="https://img.youtube.com/vi/Kclp0Z6brTo/0.jpg"
+                                onerror="this.onerror=null;this.src='https://moitv.phsartech.com/images/logo/default.png';"
+                                alt="">
+                        </a>
+                        <div class="icon-play">
+                            <i class="fa fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="text-description">
+                        <a class="title">សម្ដេចក្រឡាហោម ស ខេង៖ វេទិការសាធារណៈត្រូវតែបន្តធ្វើដើម្បីដោះស្រាយបញ្ហា
+                            រាល់ទុក្ខកង្វល់ជូនប្រជាពលរដ្ឋ</a>
+                        <span class="date">ថ្ងៃសៅរ៍ ទី១១ ខែវិច្ឆិកា ឆ្នាំ២០២៣</span>
+                    </div>
+                </div>
+            </div>
+            <!-- <template x-if="$store.videoDialog.show">
+                <div x-data="videoDialog_component" x-bind:style="{ zIndex: $store.libs.getLastIndex() + 1 }"
+                    class="dialog" x-bind:onload="dialogInit">
+                    <div class="dialog-wrapper">
+                        <div class="dialog-container" @click.away="$store.videoDialog.clickAway">
+                            <div class="pop-up" x-data="video">
+                                <div class="pop-up-wrapper">
+                                    <div class="pop-up-close" @click="$store.videoDialog.close()">
+                                        <i data-feather="x"></i>
+                                    </div>
+                                    <div class="pop-up-body">
+                                        <div class="pop-up-body-content">
+                                            <div class="video">
+                                                <iframe width="100%" height="100%" :src="dataDialog" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                Alpine.data('video', () => ({
+                                    loading: false,
+                                    dataDialog: null,
+
+                                    init() {
+                                        this.dataDialog = this.$store.videoDialog.data?.data;
+                                    },
+                                }));
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </template> -->
+            <!-- video1 -->
+            <div x-data="videoDialog_component " x-bind:style="{ zIndex: $store.libs.getLastIndex() + 1 }" class="dialog d-none" id="dialog1" x-bind:onload="dialogInit">
+                <div class="dialog-wrapper">
+                    <div class="dialog-container" @click.away="$store.videoDialog.clickAway">
+                        <div class="pop-up" x-data="video">
+                <div class="pop-up-wrapper">
+                    <div class="pop-up-close" onclick="dialogClose(1)" /*@click="$store.videoDialog.close()">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <div class="pop-up-body">
+                        <div class="pop-up-body-content">
+                            <div class="video">
+                                <iframe width="100%" height="100%" :src="dataDialog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/Dv-ED_WtPME"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script>
+                Alpine.data('video', () => ({
+                    loading: false,
+                    dataDialog: null,
+
+                    init() {
+                        this.dataDialog = this.$store.videoDialog.data?.data;
+                    },
+                }));
+            </script> -->
+                    </div>
+                </div>
+            </div>
+            <!-- end video1 -->
+            <!-- video2 -->
+            <div x-data="videoDialog_component" x-bind:style="{ zIndex: $store.libs.getLastIndex() + 1 }" class="dialog d-none" id="dialog2" x-bind:onload="dialogInit" >
+                <div class="dialog-wrapper">
+                    <div class="dialog-container" @click.away="$store.videoDialog.clickAway">
+                        <div class="pop-up" x-data="video">
+                <div class="pop-up-wrapper">
+                    <div class="pop-up-close"  onclick="dialogClose(2)" /*@click="$store.videoDialog.close()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <div class="pop-up-body">
+                        <div class="pop-up-body-content">
+                            <div class="video">
+                                <iframe width="100%" height="100%" :src="dataDialog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/o7hl9ou71V0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script>
+                Alpine.data('video', () => ({
+                    loading: false,
+                    dataDialog: null,
+
+                    init() {
+                        this.dataDialog = this.$store.videoDialog.data?.data;
+                    },
+                }));
+            </script> -->
+                    </div>
+                </div>
+            </div>
+            <!-- end video2 -->
+            <!-- video3 -->
+            <div x-data="videoDialog_component" x-bind:style="{ zIndex: $store.libs.getLastIndex() + 1 }" class="dialog d-none" id="dialog3" x-bind:onload="dialogInit" >
+                <div class="dialog-wrapper">
+                    <div class="dialog-container" @click.away="$store.videoDialog.clickAway">
+                        <div class="pop-up" x-data="video">
+                <div class="pop-up-wrapper">
+                    <div class="pop-up-close"  onclick="dialogClose(3)" /*@click="$store.videoDialog.close()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <div class="pop-up-body">
+                        <div class="pop-up-body-content">
+                            <div class="video">
+                                <iframe width="100%" height="100%" :src="dataDialog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/3u8jw89JF9Q"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script>
+                Alpine.data('video', () => ({
+                    loading: false,
+                    dataDialog: null,
+
+                    init() {
+                        this.dataDialog = this.$store.videoDialog.data?.data;
+                    },
+                }));
+            </script> -->
+                    </div>
+                </div>
+            </div>
+            <!-- end video3 -->
+        <!-- video4 -->
+            <div x-data="videoDialog_component" x-bind:style="{ zIndex: $store.libs.getLastIndex() + 1 }" class="dialog d-none" id="dialog4" x-bind:onload="dialogInit" >
+                <div class="dialog-wrapper">
+                    <div class="dialog-container" @click.away="$store.videoDialog.clickAway">
+                        <div class="pop-up" x-data="video">
+                <div class="pop-up-wrapper">
+                    <div class="pop-up-close"  onclick="dialogClose(4)" /*@click="$store.videoDialog.close()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <div class="pop-up-body">
+                        <div class="pop-up-body-content">
+                            <div class="video">
+                                <iframe width="100%" height="100%" :src="dataDialog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/xf1RLp9X19w"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script>
+                Alpine.data('video', () => ({
+                    loading: false,
+                    dataDialog: null,
+
+                    init() {
+                        this.dataDialog = this.$store.videoDialog.data?.data;
+                    },
+                }));
+            </script> -->
+                    </div>
+                </div>
+            </div>
+        <!-- end video4 -->
+        <!-- video5 -->
+            <div x-data="videoDialog_component" x-bind:style="{ zIndex: $store.libs.getLastIndex() + 1 }" class="dialog d-none" id="dialog5" x-bind:onload="dialogInit" >
+                <div class="dialog-wrapper">
+                    <div class="dialog-container" @click.away="$store.videoDialog.clickAway">
+                        <div class="pop-up" x-data="video">
+                <div class="pop-up-wrapper">
+                    <div class="pop-up-close"  onclick="dialogClose(5)" /*@click="$store.videoDialog.close()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <div class="pop-up-body">
+                        <div class="pop-up-body-content">
+                            <div class="video">
+                                <iframe width="100%" height="100%" :src="dataDialog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/jHukqpV0WM0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script>
+                Alpine.data('video', () => ({
+                    loading: false,
+                    dataDialog: null,
+
+                    init() {
+                        this.dataDialog = this.$store.videoDialog.data?.data;
+                    },
+                }));
+            </script> -->
+                    </div>
+                </div>
+            </div>
+        <!-- end video5 -->
+        <!-- video6 -->
+            <div x-data="videoDialog_component" x-bind:style="{ zIndex: $store.libs.getLastIndex() + 1 }" class="dialog d-none" id="dialog6" x-bind:onload="dialogInit" >
+                <div class="dialog-wrapper">
+                    <div class="dialog-container" @click.away="$store.videoDialog.clickAway">
+                        <div class="pop-up" x-data="video">
+                <div class="pop-up-wrapper">
+                    <div class="pop-up-close"  onclick="dialogClose(6)" /*@click="$store.videoDialog.close()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <div class="pop-up-body">
+                        <div class="pop-up-body-content">
+                            <div class="video">
+                                <iframe width="100%" height="100%" :src="dataDialog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/Kclp0Z6brTo"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script>
+                Alpine.data('video', () => ({
+                    loading: false,
+                    dataDialog: null,
+
+                    init() {
+                        this.dataDialog = this.$store.videoDialog.data?.data;
+                    },
+                }));
+            </script> -->
+                    </div>
+                </div>
+            </div>
+        <!-- end video6 -->
+            <!-- <script type="module">
+                Alpine.data('videoDialog_component', () => ({
+                    dialogInit() {
+                    let dialog = this.$store.videoDialog;
+                    feather.replace();
+                    const target = this.$root.querySelector('.dialog-container');
+                    const firstChild = target.firstElementChild;
+                    firstChild.style.width = dialog.attributes?.width;
+                    firstChild.style.maxWidth = dialog.attributes?.width;
+                    firstChild.style.height = dialog.attributes?.height;
+                    firstChild.style.maxHeight = dialog.attributes?.height;
+                    this.$store.libs.playAnimateOnLoad(target, () => {
+                        if (dialog.backdrop) {
+                            dialog.clickAway = () => {
+                                dialog.close();
+                            };
+                        }
+                    });
+                    dialog.target = target;
+                }
+                }));
+                Alpine.store('videoDialog', {
+                    target: null,
+                    data: null,
+                    show: false,
+                    backdrop: false, // enable click away to close dialog
+                    attributes: {},
+                    clickAway: () => {},
+                    afterClosed: () => {},
+                    config(options) {
+                        const {
+                            backdrop,
+                            width,
+                            height,
+                        } = options;
+                        this.backdrop = backdrop ?? false;
+                        this.attributes = {
+                            width: width ?? '80vw',
+                            height: height
+                        }
+                    },
+                    open(options) {
+                        document.body.style.overflow = 'hidden';
+                        this.data = options?.data;
+                        this.afterClosed = options?.afterClosed ?? null;
+                        this.show = true;
+                    },
+                    close(data = null) {
+                        Alpine.store('animate').leave(this.target, () => {
+                            this.show = false;
+                            document.body.style.overflow = 'unset';
+                            if (typeof this.afterClosed === 'function') {
+                                this.afterClosed(data);
+                            }
+                            this.clickAway = () => {};
+                        });
+                    },
+
+                    direct() {
+                        this.close();
+                    }
+                });
+            </script> -->
+
+            <div class="pagination">
+                <div class="pagination-right">
+                    <div class="pagination-wrapper">
+                        <a class="pagination-item left disabled" href="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-play w-4 h-4">
-                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                stroke-linejoin="round" class="feather feather-chevrons-left">
+                                <polyline points="11 17 6 12 11 7"></polyline>
+                                <polyline points="18 17 13 12 18 7"></polyline>
                             </svg>
-                            <span>ស្ដាប់</span>
+                            <label>ថយក្រោយ</label>
+                        </a>
+
+                        <a class="pagination-item right disabled" href="">
+                            <label class="next">បន្ទាប់</label>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevrons-right">
+                                <polyline points="13 17 18 12 13 7"></polyline>
+                                <polyline points="6 17 11 12 6 7"></polyline>
+                            </svg>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div> 
+    <script>
+    function dialogOpen(n) {
+        if(n==1){
+            document.getElementById("dialog1").classList.remove('d-none');
+            document.getElementById("dialog1").classList.add('d-block');
+        }
+        if(n==2){
+            document.getElementById("dialog2").classList.remove('d-none');
+            document.getElementById("dialog2").classList.add('d-block');
+        }
+        if(n==3){
+            document.getElementById("dialog3").classList.remove('d-none');
+            document.getElementById("dialog3").classList.add('d-block');
+        }
+        if(n==4){
+            document.getElementById("dialog4").classList.remove('d-none');
+            document.getElementById("dialog4").classList.add('d-block');
+        }
+        if(n==5){
+            document.getElementById("dialog5").classList.remove('d-none');
+            document.getElementById("dialog5").classList.add('d-block');
+        }
+        if(n==6){
+            document.getElementById("dialog6").classList.remove('d-none');
+            document.getElementById("dialog6").classList.add('d-block');
+        }
+    // document.getElementById("menu-responsive").classList.add('menu-active');
+    // document.getElementById("menu-responsive-cover").classList.add('menu-active');
+    }
+    function dialogClose(n) {
+        if(n==1){
+            document.getElementById("dialog1").classList.remove('d-block');
+            document.getElementById("dialog1").classList.add('d-none');
+        }
+        if(n==2){
+            document.getElementById("dialog2").classList.remove('d-block');
+            document.getElementById("dialog2").classList.add('d-none');
+        }
+        if(n==3){
+            document.getElementById("dialog3").classList.remove('d-block');
+            document.getElementById("dialog3").classList.add('d-none');
+        }
+        if(n==4){
+            document.getElementById("dialog4").classList.remove('d-block');
+            document.getElementById("dialog4").classList.add('d-none');
+        }
+        if(n==5){
+            document.getElementById("dialog5").classList.remove('d-block');
+            document.getElementById("dialog5").classList.add('d-none');
+        }
+        if(n==6){
+            document.getElementById("dialog6").classList.remove('d-block');
+            document.getElementById("dialog6").classList.add('d-none');
+        }
+    // document.getElementById("menu-responsive-cover").classList.remove('menu-active');
+    }
+</script></div> 
     </section>
     <!-- button scoll top -->
     <!-- <button type="button" class="btn scroll-top reveal" onclick="topFunction()" id="toTop">
