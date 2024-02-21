@@ -675,6 +675,7 @@
         overflow: hidden;
         background-color: #039;
         margin-top: 15px;
+        height: 35px;
     }
     .container .new-section-2 .btn-shape {
         width: -moz-fit-content;
