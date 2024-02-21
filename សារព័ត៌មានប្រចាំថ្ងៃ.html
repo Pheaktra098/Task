@@ -544,21 +544,21 @@ function removeClass() {
 
     <!-- share dialog component -->
 <div class="share-dialog" id="share-dialog" :class="{ 'active': shareDialog }" x-data="shareDialog">
-    <div class="share-dialog-overlay" onclick="shareHide()"  ></div>
-    <div class="share-dialog-content">
+    <div class="share-dialog-overlay" onclick="shareHide()" /*@click="toggleShareModal" ></div>
+        <div class="share-dialog-content">
         <header>
             <span>ចែករំលែកទៅកាន់បណ្តាញសង្គម</span>
-            <div class="close" onclick="shareHide()"></div>
-                
+            <div class="close" onclick="shareHide()" /*@click="toggleShareModal()"*/> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </div>
         </header>
-        <div class="content active">
+        <div class="content active" :class="{ 'active': shareDialog }">
             <p>ចែករំលែកតំណនេះតាម</p>
             <div class="icons">
                 <a :href="facebookUrl" target="_blank" class="facebook" onclick="window.open(this.href, 'share-facebook','left=50,top=50,width=600,height=320,toolbar=0'); return false;" href="https://www.facebook.com/sharer/sharer.php?u=https://moitv.phsartech.com/news/detail/126"><i class="fa fa-facebook-f"></i></a>
                 <a :href="telegramUrl" target="_blank" class="telegram" onclick="window.open(this.href, 'share-telegram','left=50,top=50,width=600,height=320,toolbar=0'); return false;" href="https://telegram.me/share/url?url=https://moitv.phsartech.com/news/detail/126"><i class="fa fa-telegram"></i></a>
                 <a :href="twitterUrl" target="_blank" onclick="window.open(this.href, 'share-twitter','left=50,top=50,width=600,height=320,toolbar=0'); return false;" class="twitter" href="https://twitter.com/intent/tweet?text=https://moitv.phsartech.com/news/detail/126"><i class="fa fa-twitter"></i></a>
             </div>
-          
             <p>ឬចម្លងតំណនេះ</p>
             <div class="field">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
