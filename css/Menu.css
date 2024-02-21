@@ -1208,7 +1208,7 @@
         margin: 20px 0;
     }
     .share-dialog-content .content .icons a.facebook {
-        color: #3b5998;
+        color:  rgb(72, 72, 167);
         border-color: #dfe3ee;
     }
     .share-dialog-content .content .icons a {
@@ -1223,7 +1223,7 @@
         justify-content: center;
     }
     .share-dialog-content .content .icons a.telegram {
-        color: #08c;
+        color:  rgb(72, 72, 167);
         border-color: #b3e6ff;
     }
     .share-dialog-content .content .icons a {
