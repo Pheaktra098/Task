@@ -882,7 +882,8 @@
         text-decoration: underline!important;
     }
     .container .new-section .sidebar-item .item-box .img-text h1 {
-        /* font-size: 14px; */
+        font-size: 14px;
+        font-weight: 700;
         color: #039;
         font-family: Poppins, sans-serif, Hanuman, serif;
     }
