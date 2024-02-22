@@ -1404,7 +1404,9 @@
     .w-\[20\%\] {
         width: 20%;
     }
-    
+    .d-flex{
+         padding: 5px;
+    }
     .footer .footer-wrapper-row-item .body .download {
         width: -moz-fit-content;
         width: fit-content;
@@ -1445,6 +1447,4 @@
     /* end footer buttom */
 
     /* end news-section-container*/
-    .d-flex{
-         padding: 5px;
-    }
+   
