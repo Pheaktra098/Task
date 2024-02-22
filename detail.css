@@ -549,7 +549,7 @@
     }
     .detail-content .page-content .share a {
         width: -moz-fit-content;
-        width: fit-content;
+        width: 20px;
         /* padding: 7px 15px; */
         font-size: 12px;
         background-color: #fff;
