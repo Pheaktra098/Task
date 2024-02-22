@@ -1445,3 +1445,6 @@
     /* end footer buttom */
 
     /* end news-section-container*/
+    .d-flex{
+         padding: 5px;
+    }
